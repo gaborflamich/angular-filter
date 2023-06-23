@@ -1,0 +1,4 @@
+<input type="text" (input)="filterItems($event)" placeholder="Search items" />
+<ul>
+  <li *ngFor="let item of filteredItems">{{ item }}</li>
+</ul>
